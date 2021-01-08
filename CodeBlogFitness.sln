@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBlogFitness.BL", "CodeB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBlogFitness.CMD", "CodeBlogFitness.CMD\CodeBlogFitness.CMD.csproj", "{6462441F-9062-4CE2-B879-E005B167BD45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBlogFitness.BLTests", "CodeBlogFitness.BLTests\CodeBlogFitness.BLTests.csproj", "{485FE90B-EBD6-4007-9354-1AB8D97A6435}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6462441F-9062-4CE2-B879-E005B167BD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6462441F-9062-4CE2-B879-E005B167BD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6462441F-9062-4CE2-B879-E005B167BD45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485FE90B-EBD6-4007-9354-1AB8D97A6435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485FE90B-EBD6-4007-9354-1AB8D97A6435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485FE90B-EBD6-4007-9354-1AB8D97A6435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485FE90B-EBD6-4007-9354-1AB8D97A6435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
