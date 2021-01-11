@@ -26,7 +26,6 @@ namespace CodeBlogFitness.BL.Controller.Tests
             controller.SetNewUserData(gender, birthDate, weight, height);
             var controller2 = new UserController(userName);
 
-
             // Assert
             Assert.AreEqual(userName, controller2.CurrentUser.Name);
             Assert.AreEqual(birthDate, controller2.CurrentUser.BirthDate);
